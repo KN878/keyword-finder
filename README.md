@@ -1,10 +1,10 @@
-#Desription
+# Desription
 This is a keyword searcher among the provided web pages. Urls are 
 read from file <code>urls.txt</code>, keywords - <code>keywords.txt</code>.
 The results are writen in file <code>result.csv</code> in the format
 
-<code>URL,keyword1,keyword2,...<br>
-http://url1.com,1,1,...<br>
+<code>URL,keyword1,keyword2,...  
+http://url1.com,1,1,...  
 http://url2.com,12,34,...</code>
 
 Each line corresponds to the url, and each column corresponds to the word you are trying to search.
@@ -17,8 +17,8 @@ Each keyword is searched concurrently in the provided URL with a limit
 in number of workers set to 100.
 
 Also, the algorithm is benchmarked using simple time difference from
-starting it to it's end.
-#Libraries
+starting it to it's end.  
+# Libraries
 <ol>
    <li>Cats-core</li>
    <li>Cats-effect</li>
